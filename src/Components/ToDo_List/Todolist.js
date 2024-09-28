@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 const Todolist = ({ todos, setTodos }) => {
-  const [editingId, setEditingId] = useState(null); // State to track which todo is being edited
-  const [editValue, setEditValue] = useState(""); // State to store the edited value
+  const [editingId, setEditingId] = useState(null);
+  const [editValue, setEditValue] = useState("");
 
   const handleComplete = (todo) => {
     setTodos((prevTodos) =>
@@ -20,7 +20,7 @@ const Todolist = ({ todos, setTodos }) => {
 
   const handleEditClick = (todo) => {
     setEditingId(todo.id);
-    setEditValue(todo.title); // Set the current title to the editValue
+    setEditValue(todo.title);
   };
 
   const handleEditSubmit = (e, id) => {
@@ -30,8 +30,8 @@ const Todolist = ({ todos, setTodos }) => {
         item.id === id ? { ...item, title: editValue } : item
       )
     );
-    setEditingId(null); // Reset editing state
-    setEditValue(""); // Clear edit value
+    setEditingId(null);
+    setEditValue("");
   };
 
   return (

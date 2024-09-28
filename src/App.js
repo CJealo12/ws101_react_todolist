@@ -19,23 +19,23 @@ import Todolist from './Components/ToDo_List/Todolist';
 
 const App = () => {
   const [input, setInput] = useState("");
-  const [todos, setTodos] = useState([]); // Initialize todos as an empty array
+  const [todos, setTodos] = useState([]);
 
   const addTodo = (e) => {
     e.preventDefault();
-    if (input.trim() === "") return; // Prevent adding empty todos
+    if (input.trim() === "") return; // No need for curly braces here.
 
     const newTodo = {
-      id: Date.now(), // Unique ID
+      id: Date.now(),
       title: input,
       completed: false,
     };
 
-    setTodos(prevTodos => [...prevTodos, newTodo]); // Ensure todos is an array
-    setInput(""); // Clear input after adding
+    setTodos(prevTodos => [...prevTodos, newTodo]);
+    setInput(""); 
   };
 
-  console.log(todos); // Log todos here to check its value
+  console.log(todos);
 
   return (
     <div className='container'>
@@ -46,7 +46,7 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 
 // function App() {
