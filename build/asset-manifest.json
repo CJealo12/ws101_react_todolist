@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ws101-Dimarucut-navbar/static/css/main.181e5088.css",
-    "main.js": "/ws101-Dimarucut-navbar/static/js/main.dbb43cce.js",
-    "index.html": "/ws101-Dimarucut-navbar/index.html",
-    "main.181e5088.css.map": "/ws101-Dimarucut-navbar/static/css/main.181e5088.css.map",
-    "main.dbb43cce.js.map": "/ws101-Dimarucut-navbar/static/js/main.dbb43cce.js.map"
+    "main.css": "/https//CJealo12.github.com.io/ws101_react_todolist-/static/css/main.9d16d9a6.css",
+    "main.js": "/https//CJealo12.github.com.io/ws101_react_todolist-/static/js/main.7fd33b74.js",
+    "index.html": "/https//CJealo12.github.com.io/ws101_react_todolist-/index.html",
+    "main.9d16d9a6.css.map": "/https//CJealo12.github.com.io/ws101_react_todolist-/static/css/main.9d16d9a6.css.map",
+    "main.7fd33b74.js.map": "/https//CJealo12.github.com.io/ws101_react_todolist-/static/js/main.7fd33b74.js.map"
   },
   "entrypoints": [
-    "static/css/main.181e5088.css",
-    "static/js/main.dbb43cce.js"
+    "static/css/main.9d16d9a6.css",
+    "static/js/main.7fd33b74.js"
   ]
 }
